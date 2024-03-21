@@ -51,7 +51,7 @@ nav{
 .logo{
     width: 100px;
     border-radius: 100px;
-    color: #ff004f;
+    color: #ffff00;
     margin-top: 20px;
 }
 
@@ -72,7 +72,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #ffff00;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -94,7 +94,11 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #ff004f;
+    color: #ffff00;
+}
+.header-text a{
+    color: #000;
+    font-weight: bold;
 }
 
 /* navbar end here */
@@ -158,7 +162,7 @@ nav ul li a:hover::after{
 .tab-links::after{
     content: '';
     width: 0;
-    background: #ff004f;
+    background: #ffff00;
     height: 3px;
     position: absolute;
     left: 0;
@@ -176,7 +180,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #ffff00;
     font-size: 14px;
 }
 
@@ -278,7 +282,7 @@ transform: translateY(-10px);
     width: 100%;
     height: 0;             /*this hide the color and text and link*/
     border-radius: 10px;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #ffff00);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -300,7 +304,7 @@ transform: translateY(-10px);
 
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #ffff00;
     text-decoration: none;
     font-size: 18px;
     line-height: 40px;
@@ -324,7 +328,7 @@ transform: translateY(-10px);
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #ffff00;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -333,7 +337,7 @@ transform: translateY(-10px);
 }
 
 .btn:hover{
-    background: #ff004f;
+    background: #ffff00;
 }
 
 
@@ -357,13 +361,13 @@ transform: translateY(-10px);
 }
 
 .phone{
-    color: #ff004f;
+    color: #ffff00;
     margin-right: 15px;
     font-size: 25px;
 }
 
 .email{
-    color: #ff004f;
+    color: #ffff00;
     margin-right: 15px;
     font-size: 25px; 
 }
@@ -381,13 +385,13 @@ transform: translateY(-10px);
 }
 
 .social-icons a:hover{
-    color: #ff004f;
+    color: #ffff00;
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #ffff00;
     
 }
 
@@ -490,7 +494,7 @@ form .btn2{
     /* side nav */
 
     nav ul{
-        background: #ff004f;
+        background: #ffff00;
         position: fixed;
         top: 0;
         right: -170px;  /* it hides the navbar     */
