@@ -531,6 +531,11 @@ form .btn2{
         margin-bottom: 30px;
     }
 
+    .about-col-1 img{
+        width: 80%;
+        margin: 0 35px;
+    }
+
     .about-col-2{
         font-size:14px ;
     }
@@ -568,6 +573,11 @@ form .btn2{
     
    .btn.see{
      margin-top: 0;
+   }
+
+   .work img{
+    width:85%;
+    margin: 0 30px;
    }
 
 
