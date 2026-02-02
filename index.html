@@ -380,7 +380,7 @@ Currently working at Sanmisha Technologies Pvt Ltd.
     })
 </script>
 
-  <div id="screenshotModal" class="ss-modal" aria-hidden="true">
+  <div id="screenshotModal" class="ss-modal">
     <div class="ss-modal-card" role="dialog" aria-modal="true" aria-label="Project screenshots">
       <div class="ss-modal-header">
         <div class="ss-modal-title">Screenshots</div>
@@ -447,14 +447,12 @@ Currently working at Sanmisha Technologies Pvt Ltd.
         index = 0;
         titleEl.textContent = title;
         modal.classList.add('is-open');
-        modal.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
         show(0);
       };
 
       var close = function () {
         modal.classList.remove('is-open');
-        modal.setAttribute('aria-hidden', 'true');
         imgEl.src = '';
         document.body.style.overflow = '';
         images = [];

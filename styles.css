@@ -430,10 +430,15 @@ transform: translateY(-10px);
      justify-content: center;
      padding: 20px;
      z-index: 999;
+     opacity: 0;
+     visibility: hidden;
+     transition: opacity 0.3s, visibility 0.3s;
  }
 
  .ss-modal.is-open{
      display: flex;
+     opacity: 1;
+     visibility: visible;
  }
 
  .ss-modal-card{
