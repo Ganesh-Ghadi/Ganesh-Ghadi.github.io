@@ -809,6 +809,11 @@ form .btn2{
         display: block;  
         margin: 25px;
     }
+
+    /* Make sidebar link text black on small screens (yellow background) */
+    nav ul li a{
+        color: #000;
+    }
     
     nav ul .fas{
         position: absolute;
